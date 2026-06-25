@@ -19,7 +19,7 @@ class MahasiswaMandiri extends Mahasiswa {
     // Mengimplementasikan method abstrak hitungTagihanSemester
     public function hitungTagihanSemester(): float {
         // Jalur mandiri membayar UKT penuh sesuai nominal tarif
-        return $this->tarifUktNominal;
+        return $this->tarifUktNominal + 10000; 
     }
 
     // Mengimplementasikan method abstrak tampilkanSpesifikasiAkademik
